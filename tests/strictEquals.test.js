@@ -7,8 +7,8 @@ describe('Equals', () => {
   describe('strictEquals', () => {
     it('returns true if values are same type and same value', () => {
       //create test data
-      const checkNumberOne = 'test'
-      const checkNumberTwo = 'test'
+      const checkNumberOne = 5
+      const checkNumberTwo = 5
 
       //call the function with the test data
       const checkResult = strictEquals(checkNumberOne, checkNumberTwo)
